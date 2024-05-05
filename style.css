@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 0.5fr;
+
+}
+
+.header{
+    background-image: url(./image/22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 2.5rem;
+    color: rgb(137, 96, 80);
+
+    
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    background-color: rgb(137, 96, 80);
+    border-radius: 5px;
+    
+
+}
+
+.navbar ul li{
+    padding: 0.5rem;
+    
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white; 
+    padding: 0.5rem;
+}
+
+.navbar ul li a:hover{
+    color: rgb(137, 96, 80);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar ul li a.active {
+    color: rgb(137, 96, 80);
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-left: -0.5rem;
+    
+}
+
+#submit{
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: rgb(137, 96, 80);
+    background-color: #feefea;
+    border: 2px solid rgb(137, 96, 80);
+}
+
+/* banner section */
+.banner{
+    margin: 9rem 0 9rem 7rem;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-family: gilroy light;
+    color: rgb(145, 78, 51);
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.banner p{
+    color: rgb(145, 78, 51);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+ 
+}
+
+.banner #get-started{
+        padding: 0.8rem;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(137, 96, 80);
+        border: none;
+        margin-right: 1rem;
+
+}
+
+#watch-demo{
+        padding: 0.7rem;
+        border-radius: 15px;
+        color: rgb(137, 96, 80);
+        background-color: #dbbd8b;
+        border: 2px solid rgb(137, 96, 80);
+        font-weight: bold;
+}
+
+.fa-play-circle{
+    color:rgb(137, 96, 80);
+    
+
+}
+
+/* banner2 */
+
+.banner2{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #fff9e0;
+    padding: 4rem;
+    height: fit-content;
+
+}
+
+.banner2 h1{
+        font-size: 3.5rem;
+        font-family: gilroy light;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin-bottom: 1rem;
+}
+
+.banner2 img{
+    margin-top: -5rem;
+    width: 500px;
+    height: 500px;
+
+
+ 
+}
+
+.banner2 h2{
+        font-size: 1.5rem;
+        font-family: gilroy light;
+        color: rgb(137, 96, 80);
+        font-weight: bold;
+        margin-bottom: 1rem;
+}
+
+.banner2 p{
+    color: rgb(145, 78, 51);
+    font-family: gilroy light;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+
+}
+
+.banner2 #read-more {
+    padding: 1rem;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(137, 96, 80);
+    border: none;
+    margin-right: 1rem;
+    font-weight: bold;
+
+}
+
+/* menu */
+.menu {
+    background-color: rgb(137, 96, 80);
+    /* height: fit-content; */
+    padding: 5rem;
+  
+   
+}
+
+.plates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+
+}
+
+.blueberry,
+.bicoff,
+.chocolate {
+    background-color: #fff9e0;
+    padding: 2rem;
+    padding-inline: 3rem;
+    border-radius: 10px;
+
+
+}
+
+.menu h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: gilroy light;
+    color: #fff9e0;
+    font-weight: bold;
+ 
+}
+
+.plates .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+ 
+
+
+}
+
+.plates h3 {
+    font-size: 1rem;
+    font-family: gilroy;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+
+}
+
+.plates h4 {
+    font-size: 0.7rem;
+    font-family: gilroy light;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+span {
+    color: green;
+    font-weight: bolder;
+}
+
+.fa-star1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+
+}
+
+.fa-star {
+    color: rgb(137, 96, 80);
+}
+
+.view-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+
+.view-more a {
+    color: #fff9e0;
+    text-decoration: none;
+
+}
+
+
+.chefs {
+    background-color: #fff9e0;
+    padding: 4rem;
+
+}
+
+.chef-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2rem;
+
+}
+
+.chef1,
+.chef2,
+.chef3 {
+    background-color: #fff9e0;
+    ;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.2);
+}
+
+.chefs h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: gilroy light;
+    color: rgb(137, 96, 80);
+    font-weight: bolder;
+
+}
+
+.chefs h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: gilroy light;
+    color: rgb(137, 96, 80);
+    margin-bottom: 2rem;
+
+
+
+}
+
+.cook h3 {
+    font-family: gilroy light;
+    color: #896050;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin: 1rem 0;
+    /* line-height: 3rem; */
+}
+
+.cook p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.cook img {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.chef1 img {
+    /* width: ; */
+    height: 20%;
+
+}
+
+.cook .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-bottom: 1rem; */
+
+
+}
+
+.cook :nth-child(2) {
+    font-family: gilroy light;
+    font-weight: bolder;
+    color: rgb(199, 76, 28);
+}
+
+.cook :nth-child(4) {
+    font-family: gilroy light;
+    font-weight: bolder;
+    color: #896050;
+}
+
+.cook a {
+    text-decoration: none;
+    color: rgb(160, 80, 48);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #734B32;
+ 
+
+}
+
+.contact-us {
+    margin-top: 2rem;
+    
+    
+}
+
+.contact-us h1 {
+    font-size: 2.8rem;
+    font-family: gilroy light;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.contact-us P {
+    color: white;
+    font-family: gilroy light;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.contact-us .icons .fa {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+
+}
+
+.fa-facebook-square{
+    background-color: #feae37;
+}
+
+
+
+#name,
+#email {
+    border: none;
+    padding: 0.7rem;
+    width: 20rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+
+}
+
+textarea {
+    border: none;
+    height: 8rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+
+}
+
+form{
+    margin-top: 1rem;
+
+}
+
+.form button {
+    border: none;
+    font-size: larger;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 15px;
+    background-color: #feae37;
+
+}
+
+
